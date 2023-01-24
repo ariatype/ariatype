@@ -10,16 +10,16 @@ npm install @durkdotdev/aria-typed -D
 yarn add @durkdotdev/aria-typed -D
 # or
 pnpm add @durkdotdev/aria-typed -D
-
 ```
 
 ## Usage
 
 ```ts
-import { AriaAttributes } from "@durkdotdev/aria-typed";
+import { AriaTypes } from "@durkdotdev/aria-typed";
 
-const aria: AriaAttributes = {
-  "aria-atomic": "true"
+const aria: AriaTypes = {
+  "aria-atomic": "true",
+  role: "alert"
 };
 
 // ...
@@ -32,9 +32,16 @@ const aria: AriaAttributes = {
 | AriaAttributes             | typed aria attributes               |
 | AriaAttributesDragAndDrop  | typed drag-and-drop aria attributes |
 | AriaAttributesGlobal       | typed global aria attributes        |
-| AriaAttributesLiveRegion   | typed live region attributes        |
+| AriaAttributesLiveRegion   | typed live region aria attributes   |
 | AriaAttributesRelationship | typed relationship aria attributes  |
 | AriaAttributesWidget       | typed widget aria attributes        |
+| AriaRole                   | typed aria role                     |
+| AriaRoleComposite          | typed composite aria role           |
+| AriaRoleDocumentStructure  | typed document structure aria role  |
+| AriaRoleLandmark           | typed landmark aria role            |
+| AriaRoleLiveRegion         | typed live region aria role         |
+| AriaRoleWidget             | typed widget aria role              |
+| AriaRoleWindow             | typed window aria role              |
 
 In addition, the following arrays are exported:
 
@@ -46,10 +53,17 @@ In addition, the following arrays are exported:
 | ariaAttributesLiveRegion   | array of live region attributes        |
 | ariaAttributesRelationship | array of relationship aria attributes  |
 | ariaAttributesWidget       | array of widget aria attributes        |
+| ariaRoles                  | array of aria roles                    |
+| ariaRolesComposite         | array of composite aria roles          |
+| ariaRolesDocumentStructure | array of document structure aria roles |
+| ariaRolesLandmark          | array of landmark aria roles           |
+| ariaRolesLiveRegion        | array of live region aria roles        |
+| ariaRolesWidget            | array of widget aria roles             |
+| ariaRolesWindow            | array of window aria roles             |
 
 ## Resources
 
 For more resources on WAI-ARIA:
 
 - [https://www.w3.org/WAI/standards-guidelines/aria](https://www.w3.org/WAI/standards-guidelines/aria)
-- [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes)
+- [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)

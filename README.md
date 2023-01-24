@@ -10,7 +10,6 @@ npm install @durkdotdev/aria-typed -D
 yarn add @durkdotdev/aria-typed -D
 # or
 pnpm add @durkdotdev/aria-typed -D
-
 ```
 
 ## Documentation

@@ -10,9 +10,11 @@ export type AriaAttributesLiveRegion = {
   "aria-atomic"?: "false" | "true";
 };
 
+export type AriaAttributeLiveRegion = keyof AriaAttributesLiveRegion;
+
 export const ariaAttributesLiveRegion = [
   "aria-busy",
   "aria-live",
   "aria-relevant",
   "aria-atomic"
-];
+] as AriaAttributeLiveRegion[];

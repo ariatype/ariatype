@@ -36,6 +36,8 @@ export type AriaAttributesGlobal = {
   "aria-roledescription"?: string;
 };
 
+export type AriaAttributeGlobal = keyof AriaAttributesGlobal;
+
 export const ariaAttributesGlobal = [
   "aria-atomic",
   "aria-busy",
@@ -58,4 +60,4 @@ export const ariaAttributesGlobal = [
   "aria-owns",
   "aria-relevant",
   "aria-roledescription"
-];
+] as AriaAttributeGlobal[];
