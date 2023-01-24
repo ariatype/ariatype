@@ -18,6 +18,8 @@ export type AriaAttributesRelationship = {
   "aria-setsize"?: number;
 };
 
+export type AriaAttributeRelationship = keyof AriaAttributesRelationship;
+
 export const ariaAttributesRelationship = [
   "aria-activedescendant",
   "aria-colcount",
@@ -36,4 +38,4 @@ export const ariaAttributesRelationship = [
   "aria-rowindex",
   "aria-rowspan",
   "aria-setsize"
-];
+] as AriaAttributeRelationship[];

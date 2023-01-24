@@ -1,27 +1,9 @@
-import {
-  AriaAttributesDragAndDrop,
-  ariaAttributesDragAndDrop,
-  AriaAttributesLiveRegion,
-  ariaAttributesLiveRegion,
-  AriaAttributesRelationship,
-  ariaAttributesRelationship,
-  AriaAttributesWidget,
-  ariaAttributesWidget
-} from "./categories";
-import { AriaAttributesGlobal, ariaAttributesGlobal } from "./global";
+import { AriaAttributes } from "./attributes";
+import { AriaRole } from "./roles";
 
-export type AriaAttributes = AriaAttributesGlobal &
-  AriaAttributesDragAndDrop &
-  AriaAttributesLiveRegion &
-  AriaAttributesRelationship &
-  AriaAttributesWidget;
+export type AriaTypes = AriaAttributes & {
+  role?: AriaRole;
+};
 
-export const ariaAttributes = [
-  ...new Set([
-    ...ariaAttributesGlobal,
-    ...ariaAttributesDragAndDrop,
-    ...ariaAttributesLiveRegion,
-    ...ariaAttributesRelationship,
-    ...ariaAttributesWidget
-  ])
-];
+export * from "./attributes";
+export * from "./roles";

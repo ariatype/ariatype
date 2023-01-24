@@ -32,6 +32,8 @@ export type AriaAttributesWidget = {
   "aria-valuetext"?: string;
 };
 
+export type AriaAttributeWidget = keyof AriaAttributesWidget;
+
 export const ariaAttributesWidget = [
   "aria-autocomplete",
   "aria-checked",
@@ -57,4 +59,4 @@ export const ariaAttributesWidget = [
   "aria-valuemin",
   "aria-valuenow",
   "aria-valuetext"
-];
+] as AriaAttributeWidget[];
