@@ -1,5 +1,11 @@
 # @durkdotdev/aria-typed
 
+## 1.0.0
+
+### Major Changes
+
+- e631e7c: Release
+
 ## 1.2.0
 
 ### Minor Changes
