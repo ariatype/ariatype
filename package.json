@@ -9,7 +9,8 @@
     "build": "turbo run build",
     "format": "prettier --write .",
     "lint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "yarn build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
