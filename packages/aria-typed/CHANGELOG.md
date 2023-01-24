@@ -1,5 +1,11 @@
 # @durkdotdev/aria-typed
 
+## 1.2.0
+
+### Minor Changes
+
+- 0f67460: Add TSDocs
+
 ## 1.1.0
 
 ### Minor Changes
