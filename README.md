@@ -1,20 +1,20 @@
-# @durkdotdev/aria-typed
+# @durkdotdev/aria-types
 
 Type definitions for WAI-ARIA Accessibility.
 
 ## Installation
 
 ```bash
-npm install @durkdotdev/aria-typed -D
+npm install @durkdotdev/aria-types -D
 # or
-yarn add @durkdotdev/aria-typed -D
+yarn add @durkdotdev/aria-types -D
 # or
-pnpm add @durkdotdev/aria-typed -D
+pnpm add @durkdotdev/aria-types -D
 ```
 
 ## Documentation
 
-See the [Documentation](/packages/aria-typed/README.md).
+See the [Documentation](/packages/aria-types/README.md).
 
 ## Contributing
 

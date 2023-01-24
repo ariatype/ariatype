@@ -1,21 +1,21 @@
-# @durkdotdev/aria-typed
+# @durkdotdev/aria-types
 
 Type definitions for WAI-ARIA Accessibility.
 
 ## Installation
 
 ```bash
-npm install @durkdotdev/aria-typed -D
+npm install @durkdotdev/aria-types -D
 # or
-yarn add @durkdotdev/aria-typed -D
+yarn add @durkdotdev/aria-types -D
 # or
-pnpm add @durkdotdev/aria-typed -D
+pnpm add @durkdotdev/aria-types -D
 ```
 
 ## Usage
 
 ```ts
-import { AriaTypes } from "@durkdotdev/aria-typed";
+import { AriaTypes } from "@durkdotdev/aria-types";
 
 const aria: AriaTypes = {
   "aria-atomic": "true",
@@ -25,7 +25,7 @@ const aria: AriaTypes = {
 // ...
 ```
 
-`@durkdotdev/aria-typed` exports the following types:
+`@durkdotdev/aria-types` exports the following types:
 
 | Name                       | Description                         |
 | -------------------------- | ----------------------------------- |
