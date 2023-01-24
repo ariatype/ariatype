@@ -1,0 +1,38 @@
+{
+  "name": "@durkdotdev/aria-typed",
+  "version": "0.0.0",
+  "description": "Type definitions for WAI-ARIA Accessibility.",
+  "author": "durkdotdev (https://durk.dev)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "postpack": "clean-package restore",
+    "prepack": "clean-package"
+  },
+  "clean-package": "../../clean-package.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durkdotdev/aria-typed",
+    "directory": "packages/aria-typed"
+  },
+  "bugs": {
+    "url": "https://github.com/durkdotdev/arai-typed/issues"
+  },
+  "keywords": [
+    "TypeScript",
+    "WAI-ARIA"
+  ],
+  "devDependencies": {
+    "@durkdotdev/configs": "^1.0.2",
+    "clean-package": "^2.2.0",
+    "typescript": "^4.9.4"
+  }
+}
