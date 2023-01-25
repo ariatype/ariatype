@@ -1,6 +1,6 @@
 {
   "name": "@durkdotdev/aria-types",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Type definitions for WAI-ARIA Accessibility.",
   "author": "durkdotdev (https://durk.dev)",
   "license": "MIT",
