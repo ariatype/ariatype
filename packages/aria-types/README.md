@@ -21,9 +21,22 @@ const aria: AriaTypes = {
   "aria-atomic": "true",
   role: "alert"
 };
-
-// ...
 ```
+
+### Requiring Aria Attributes
+
+`@durkdotdev/aria-types` exports a [generic type](https://www.typescriptlang.org/docs/handbook/2/generics.html) to enforce required aria attributes:
+
+```ts
+import { PartiallyRequiredAriaTypes } from "@durkdotdev/aria-types";
+
+const aria: PartiallyRequiredAriaTypes<"aria-atomic" | "role"> = {
+  "aria-atomic": "true",
+  role: "alert"
+};
+```
+
+## Types
 
 `@durkdotdev/aria-types` exports the following types:
 
@@ -43,6 +56,8 @@ const aria: AriaTypes = {
 | AriaRoleWidget             | typed widget aria role              |
 | AriaRoleWindow             | typed window aria role              |
 
+\
+\
 In addition, the following arrays are exported:
 
 | Name                       | Description                            |

@@ -1,5 +1,6 @@
 import { AriaAttributes } from "./attributes";
 import { AriaRole } from "./roles";
+import { PartiallyRequiredProps } from "./typings";
 
 export type AriaTypes = AriaAttributes & {
   /**
@@ -9,6 +10,9 @@ export type AriaTypes = AriaAttributes & {
    */
   role?: AriaRole;
 };
+
+export type PartiallyRequiredAriaTypes<T extends keyof AriaTypes> =
+  PartiallyRequiredProps<AriaTypes, T>;
 
 export * from "./attributes";
 export * from "./roles";
