@@ -1,5 +1,11 @@
 # @durkdotdev/aria-types
 
+## 1.1.1
+
+### Patch Changes
+
+- 9c4fec1: refactor roles
+
 ## 1.1.0
 
 ### Minor Changes
