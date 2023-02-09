@@ -1,26 +1,4 @@
-export type AriaRoleWidget =
-  | "button"
-  | "checkbox"
-  | "gridcell"
-  | "link"
-  | "menuitem"
-  | "menuitemcheckbox"
-  | "menuitemradio"
-  | "option"
-  | "progressbar"
-  | "radio"
-  | "scrollbar"
-  | "searchbox"
-  | "separator"
-  | "slider"
-  | "spinbutton"
-  | "switch"
-  | "tab"
-  | "tabpanel"
-  | "textbox"
-  | "treeitem";
-
-export const ariaRolesWidget: AriaRoleWidget[] = [
+export const ariaRolesWidget = [
   "button",
   "checkbox",
   "gridcell",
@@ -41,4 +19,6 @@ export const ariaRolesWidget: AriaRoleWidget[] = [
   "tabpanel",
   "textbox",
   "treeitem"
-];
+] as const;
+
+export type AriaRoleWidget = (typeof ariaRolesWidget)[number];
