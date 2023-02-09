@@ -1,3 +1,3 @@
-export type AriaRoleWindow = "alertdialog" | "dialog";
+export const ariaRolesWindow = ["alertdialog", "dialog"] as const;
 
-export const ariaRolesWindow: AriaRoleWindow[] = ["alertdialog", "dialog"];
+export type AriaRoleWindow = (typeof ariaRolesWindow)[number];
