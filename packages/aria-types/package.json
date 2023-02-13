@@ -31,7 +31,7 @@
     "WAI-ARIA"
   ],
   "devDependencies": {
-    "@durkdotdev/configs": "^1.0.2",
+    "@durkdotdev/configs": "^1.0.5",
     "clean-package": "^2.2.0",
     "typescript": "^4.9.4"
   }
