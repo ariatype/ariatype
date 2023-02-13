@@ -230,10 +230,10 @@
     human-id "^1.0.2"
     prettier "^2.7.1"
 
-"@durkdotdev/configs@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@durkdotdev/configs/-/configs-1.0.2.tgz#406e94c2eb0755efac8232e94440ab8d4f9b3dc4"
-  integrity sha512-GK9ufso4H0rfruQjd1Hm0RGqCDR1OLHpMKWHbGdDNoLBmWfkG+5YidsAg6tyZy8CHukn+kYSq6hSORPCzZlWAg==
+"@durkdotdev/configs@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@durkdotdev/configs/-/configs-1.0.5.tgz#4fca789ffca099327210a502b7ab41cf4de4d9d0"
+  integrity sha512-SenXfYC5qwrLfCIu8qJlZoleaTWVCE4bSsb8r+pqzZ9Lrjs92nGHbdlixMUdbFn0iZ5M56S41CFT24lW52AtZg==
 
 "@eslint/eslintrc@^1.4.1":
   version "1.4.1"
