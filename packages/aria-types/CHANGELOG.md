@@ -1,5 +1,11 @@
 # @durkdotdev/aria-types
 
+## 1.1.2
+
+### Patch Changes
+
+- ff4550b: update @durkdotdev/configs dependency
+
 ## 1.1.1
 
 ### Patch Changes
