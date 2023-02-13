@@ -1,10 +1,5 @@
 {
-  "name": "aria-types",
-  "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "packages/**"
-  ],
   "scripts": {
     "build": "turbo run build",
     "lint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}' && prettier --write .",
@@ -25,6 +20,5 @@
     "prettier": "^2.8.3",
     "turbo": "^1.7.0",
     "typescript": "^4.9.4"
-  },
-  "packageManager": "yarn@1.22.19"
+  }
 }
