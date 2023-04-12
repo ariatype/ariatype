@@ -1,6 +1,6 @@
 {
   "name": "@dddstack/ariatype",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TypeScript type definitions for WAI-ARIA Accessibility.",
   "keywords": [
     "TypeScript",
@@ -29,21 +29,21 @@
     "test:typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dddstack/ariatype-aria-attributes": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-drag-and-drop": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-global": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-live-region": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-relationship": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-widget": "0.0.0",
-    "@dddstack/ariatype-aria-roles": "0.0.0",
-    "@dddstack/ariatype-aria-roles-composite": "0.0.0",
-    "@dddstack/ariatype-aria-roles-document-structure": "0.0.0",
-    "@dddstack/ariatype-aria-roles-generic": "0.0.0",
-    "@dddstack/ariatype-aria-roles-landmark": "0.0.0",
-    "@dddstack/ariatype-aria-roles-live-region": "0.0.0",
-    "@dddstack/ariatype-aria-roles-widget": "0.0.0",
-    "@dddstack/ariatype-aria-roles-window": "0.0.0",
-    "@dddstack/ariatype-partially-required-props": "0.0.0"
+    "@dddstack/ariatype-aria-attributes": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-drag-and-drop": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-global": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-live-region": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-relationship": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-widget": "0.1.0",
+    "@dddstack/ariatype-aria-roles": "0.1.0",
+    "@dddstack/ariatype-aria-roles-composite": "0.1.0",
+    "@dddstack/ariatype-aria-roles-document-structure": "0.1.0",
+    "@dddstack/ariatype-aria-roles-generic": "0.1.0",
+    "@dddstack/ariatype-aria-roles-landmark": "0.1.0",
+    "@dddstack/ariatype-aria-roles-live-region": "0.1.0",
+    "@dddstack/ariatype-aria-roles-widget": "0.1.0",
+    "@dddstack/ariatype-aria-roles-window": "0.1.0",
+    "@dddstack/ariatype-partially-required-props": "0.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
