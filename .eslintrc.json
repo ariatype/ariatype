@@ -1,11 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/eslintrc",
+  "extends": ["prettier"],
   "ignorePatterns": ["node_modules"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "simple-import-sort", "unused-imports"],
   "rules": {
     "@typescript-eslint/consistent-type-imports": "error",
-    "@typescript-eslint/indent": ["error", 2],
     "simple-import-sort/imports": "error",
     "unused-imports/no-unused-imports": "error"
   }
