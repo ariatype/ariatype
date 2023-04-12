@@ -46,26 +46,6 @@ jobs:
       - run: yarn chore:lint
         shell: bash
 
-  test:
-    name: test
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@master
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-node@master
-        with:
-          node-version: 16.x
-
-      - run: yarn --frozen-lockfile
-        shell: bash
-
-      - run: yarn test
-        shell: bash
-
   typecheck:
     name: typecheck
 

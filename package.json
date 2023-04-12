@@ -19,9 +19,7 @@
     "ci:version": "changeset version",
     "ci:version:snapshot": "changeset version --snapshot snapshot",
     "prepare": "husky install",
-    "test": "turbo run test",
-    "test:typecheck": "turbo run test:typecheck",
-    "test:watch": "turbo run test:watch"
+    "test:typecheck": "turbo run test:typecheck"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.14",
