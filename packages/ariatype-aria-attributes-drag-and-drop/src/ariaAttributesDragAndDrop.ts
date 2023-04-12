@@ -1,4 +1,4 @@
-import type { AriaAttributeDragAndDrop } from "./ariaAttributesDragAndDrop.types";
+import type { AriaAttributeDragAndDrop } from "./ariaAttributeDragAndDrop.types";
 
 export const ariaAttributesDragAndDrop = [
   "aria-dropeffect",

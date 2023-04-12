@@ -12,5 +12,3 @@ export type AriaAttributesDragAndDrop = {
    */
   "aria-grabbed"?: "false" | "true";
 };
-
-export type AriaAttributeDragAndDrop = keyof AriaAttributesDragAndDrop;
