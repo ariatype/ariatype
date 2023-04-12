@@ -1,9 +1,0 @@
-{
-  "extends": "@durkdotdev/configs/tsconfig/base.json",
-  "compilerOptions": {
-    "downlevelIteration": true,
-    "lib": ["es2015"],
-    "outDir": "dist"
-  },
-  "include": ["src"]
-}
