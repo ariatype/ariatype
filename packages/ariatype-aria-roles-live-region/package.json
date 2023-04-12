@@ -1,0 +1,39 @@
+{
+  "name": "@dddstack/ariatype-aria-roles-live-region",
+  "version": "0.0.0",
+  "description": "@dddstack/ariatype-aria-roles-live-region for @dddstack/ariatype.",
+  "keywords": [],
+  "homepage": "https://github.com/dddstack/ariatype",
+  "bugs": {
+    "url": "https://github.com/dddstack/ariatype"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dddstack/ariatype",
+    "directory": "packages/ariatype-aria-roles-live-region"
+  },
+  "license": "MIT",
+  "author": "ddddurk <ddddurk@proton.me>",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "test:typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dddstack/ariatype-aria-roles-generic": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
