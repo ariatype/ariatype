@@ -1,0 +1,10 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
+  "clean": true,
+  "dts": true,
+  "entry": ["src/index.ts"],
+  "format": ["esm"],
+  "minify": true,
+  "sourcemap": true,
+  "treeshake": true
+}
