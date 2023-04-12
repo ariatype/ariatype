@@ -28,7 +28,23 @@
     "build:watch": "tsup --watch",
     "test:typecheck": "tsc --noEmit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@dddstack/ariatype-aria-attributes": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-drag-and-drop": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-global": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-live-region": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-relationship": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-widget": "0.0.0",
+    "@dddstack/ariatype-aria-roles": "0.0.0",
+    "@dddstack/ariatype-aria-roles-composite": "0.0.0",
+    "@dddstack/ariatype-aria-roles-document-structure": "0.0.0",
+    "@dddstack/ariatype-aria-roles-generic": "0.0.0",
+    "@dddstack/ariatype-aria-roles-landmark": "0.0.0",
+    "@dddstack/ariatype-aria-roles-live-region": "0.0.0",
+    "@dddstack/ariatype-aria-roles-widget": "0.0.0",
+    "@dddstack/ariatype-aria-roles-window": "0.0.0",
+    "@dddstack/ariatype-partially-required-props": "0.0.0"
+  },
   "devDependencies": {
     "@types/node": "^18.15.11",
     "tsup": "^6.7.0",
