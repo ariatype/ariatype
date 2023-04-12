@@ -1,0 +1,43 @@
+{
+  "name": "@dddstack/ariatype-aria-attributes",
+  "version": "0.0.0",
+  "description": "@dddstack/ariatype-aria-attributes for @dddstack/ariatype.",
+  "keywords": [],
+  "homepage": "https://github.com/dddstack/ariatype",
+  "bugs": {
+    "url": "https://github.com/dddstack/ariatype"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dddstack/ariatype",
+    "directory": "packages/ariatype-aria-attributes"
+  },
+  "license": "MIT",
+  "author": "ddddurk <ddddurk@proton.me>",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "test:typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@dddstack/ariatype-aria-attributes-drag-and-drop": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-global": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-live-region": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-relationship": "0.0.0",
+    "@dddstack/ariatype-aria-attributes-widget": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
