@@ -1,0 +1,4 @@
+{
+  "$schema": "http://json.schemastore.org/lintstagedrc.schema",
+  "**/*.{js,json,jsx,ts,tsx}": ["yarn chore:lint"]
+}

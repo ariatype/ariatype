@@ -1,25 +1,31 @@
-# @durkdotdev/aria-types
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/dddstack/ariatype/HEAD/assets/media/banner-dark.svg"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/dddstack/ariatype/HEAD/assets/media/banner-light.svg"
+    >
+    <img
+      alt="ariatype"
+      height="140"
+      style="max-width: 100%;"
+      src="https://raw.githubusercontent.com/dddstack/ariatype/HEAD/assets/media/banner-light.svg" width="400"
+    >
+  </picture>
+</div>
 
-Type definitions for WAI-ARIA Accessibility.
+<h3 align="center" borderBottom="none">
+  TypeScript type definitions for WAI-ARIA Accessibility.
+</h3>
 
-## Installation
-
-```bash
-npm install @durkdotdev/aria-types -D
-# or
-yarn add @durkdotdev/aria-types -D
-# or
-pnpm add @durkdotdev/aria-types -D
-```
+<div align="center">
+  <img alt="Version" src="https://img.shields.io/npm/v/@dddstack/ariaty[e?color=aqua&style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/dddstack/ariatype?style=for-the-badge">
+</div>
 
 ## Documentation
 
-See the [Documentation](/packages/aria-types/README.md).
-
-## Contributing
-
-Contributions are encouraged and greatly welcomed.
-
-## License
-
-MIT © [durkdotdev](https://github.com/durkdotdev)
+For comprehensive documentation, view [`@dddstack/ariatype`](https://github.com/dddstack/ariatype/tree/main/packages/ariatype).

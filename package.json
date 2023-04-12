@@ -1,24 +1,43 @@
 {
+  "name": "@ddddurk/monorepo",
+  "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
-    "lint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}' && prettier --write .",
+    "build:watch": "turbo run build:watch",
+    "chore:changeset": "changeset",
+    "chore:ddddurk": "npx @ddddurk/cli",
+    "chore:droplet": "droplet",
+    "chore:lint": "yarn chore:lint:eslint && yarn chore:lint:prettier",
+    "chore:lint:eslint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}'",
+    "chore:lint:prettier": "prettier --write .",
+    "ci:publish": "yarn build && changeset publish",
+    "ci:publish:snapshot": "yarn build && changeset publish --tag snapshot",
+    "ci:version": "changeset version",
+    "ci:version:snapshot": "changeset version --snapshot snapshot",
     "prepare": "husky install",
-    "release": "pnpm build && changeset publish"
+    "test:typecheck": "turbo run test:typecheck"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.0",
-    "@durkdotdev/configs": "^1.0.5",
-    "@typescript-eslint/eslint-plugin": "^5.49.0",
-    "@typescript-eslint/parser": "^5.49.0",
-    "eslint": "^8.32.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-simple-import-sort": "^9.0.0",
+    "@changesets/changelog-git": "^0.1.14",
+    "@changesets/cli": "^2.26.1",
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@dddstack/droplet": "^0.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.0",
-    "prettier": "^2.8.3",
-    "turbo": "^1.7.0",
-    "typescript": "^4.9.4"
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "turbo": "^1.9.0",
+    "typescript": "^5.0.4"
   }
 }
