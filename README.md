@@ -22,7 +22,7 @@
 </h3>
 
 <div align="center">
-  <img alt="Version" src="https://img.shields.io/npm/v/@dddstack/ariaty[e?color=aqua&style=for-the-badge">
+  <img alt="Version" src="https://img.shields.io/npm/v/@dddstack/ariatype?color=aqua&style=for-the-badge">
   <img alt="License" src="https://img.shields.io/github/license/dddstack/ariatype?style=for-the-badge">
 </div>
 
