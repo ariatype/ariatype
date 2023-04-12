@@ -28,4 +28,4 @@
 
 ## Documentation
 
-For comprehensive documentation, view `@dddstack/ariatype`'s [Documentation](https://github.com/dddstack/ariatype/tree/main/packages/ariatype).
+For comprehensive documentation, view [`@dddstack/ariatype`](https://github.com/dddstack/ariatype/tree/main/packages/ariatype).
