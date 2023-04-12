@@ -1,6 +1,6 @@
 {
   "name": "@dddstack/ariatype-aria-attributes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "@dddstack/ariatype-aria-attributes for @dddstack/ariatype.",
   "keywords": [],
   "homepage": "https://github.com/dddstack/ariatype",
@@ -26,11 +26,11 @@
     "test:typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dddstack/ariatype-aria-attributes-drag-and-drop": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-global": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-live-region": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-relationship": "0.0.0",
-    "@dddstack/ariatype-aria-attributes-widget": "0.0.0"
+    "@dddstack/ariatype-aria-attributes-drag-and-drop": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-global": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-live-region": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-relationship": "0.1.0",
+    "@dddstack/ariatype-aria-attributes-widget": "0.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",

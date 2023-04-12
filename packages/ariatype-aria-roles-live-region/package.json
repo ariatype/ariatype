@@ -1,6 +1,6 @@
 {
   "name": "@dddstack/ariatype-aria-roles-live-region",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "@dddstack/ariatype-aria-roles-live-region for @dddstack/ariatype.",
   "keywords": [],
   "homepage": "https://github.com/dddstack/ariatype",
@@ -26,7 +26,7 @@
     "test:typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@dddstack/ariatype-aria-roles-generic": "0.0.0"
+    "@dddstack/ariatype-aria-roles-generic": "0.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
