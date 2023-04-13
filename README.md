@@ -2,17 +2,17 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/dddstack/ariatype/HEAD/assets/media/banner-dark.svg"
+      srcset="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-dark.svg.svg"
     >
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/dddstack/ariatype/HEAD/assets/media/banner-light.svg"
+      srcset="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-light.svg.svg"
     >
     <img
       alt="ariatype"
       height="140"
       style="max-width: 100%;"
-      src="https://raw.githubusercontent.com/dddstack/ariatype/HEAD/assets/media/banner-light.svg" width="400"
+      src="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-light.svg" width="400"
     >
   </picture>
 </div>
