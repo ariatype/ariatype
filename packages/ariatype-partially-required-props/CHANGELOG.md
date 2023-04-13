@@ -1,5 +1,11 @@
 # @dddstack/ariatype-partially-required-props
 
+## 0.1.1
+
+### Patch Changes
+
+- f12d3c8: Remove @types/node.
+
 ## 0.1.0
 
 ### Minor Changes
