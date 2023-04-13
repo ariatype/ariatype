@@ -2,11 +2,11 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-dark.svg.svg"
+      srcset="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-dark.svg"
     >
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-light.svg.svg"
+      srcset="https://raw.githubusercontent.com/dddstack/ariatype/main/assets/media/banner-light.svg"
     >
     <img
       alt="ariatype"
