@@ -1,6 +1,6 @@
 # @dddstack/ariatype
 
-TypeScript type definitions for WAI-ARIA Accessibility.
+TypeScript type definitions for WAI-ARIA accessibility.
 
 ## Installation
 

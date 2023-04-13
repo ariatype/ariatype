@@ -18,7 +18,7 @@
 </div>
 
 <h3 align="center" borderBottom="none">
-  TypeScript type definitions for WAI-ARIA Accessibility.
+  TypeScript type definitions for WAI-ARIA accessibility.
 </h3>
 
 <div align="center">

@@ -1,7 +1,7 @@
 {
   "name": "@dddstack/ariatype",
   "version": "0.1.1",
-  "description": "TypeScript type definitions for WAI-ARIA Accessibility.",
+  "description": "TypeScript type definitions for WAI-ARIA accessibility.",
   "keywords": [
     "TypeScript",
     "WAI-Aria"
