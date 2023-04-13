@@ -46,7 +46,6 @@
     "@dddstack/ariatype-partially-required-props": "0.1.0"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4"
   },
