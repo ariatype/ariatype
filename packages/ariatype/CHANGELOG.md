@@ -1,5 +1,11 @@
 # @dddstack/ariatype
 
+## 0.1.2
+
+### Patch Changes
+
+- 6fd25d9: Update description.
+
 ## 0.1.1
 
 ### Patch Changes
