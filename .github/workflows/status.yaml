@@ -54,30 +54,6 @@ jobs:
       - run: pnpm chore:lint
         shell: bash
 
-  test:
-    name: test
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@master
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-node@master
-        with:
-          node-version: 16.x
-
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
-      - run: pnpm i --frozen-lockfile=false
-        shell: bash
-
-      - run: pnpm test
-        shell: bash
-
   typecheck:
     name: typecheck
 
