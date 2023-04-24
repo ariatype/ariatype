@@ -20,10 +20,14 @@ jobs:
         with:
           node-version: 16.x
 
-      - run: yarn --frozen-lockfile
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - run: pnpm i --frozen-lockfile=false
         shell: bash
 
-      - run: yarn build
+      - run: pnpm build
         shell: bash
 
   lint:
@@ -40,10 +44,38 @@ jobs:
         with:
           node-version: 16.x
 
-      - run: yarn --frozen-lockfile
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - run: pnpm i --frozen-lockfile=false
         shell: bash
 
-      - run: yarn chore:lint
+      - run: pnpm chore:lint
+        shell: bash
+
+  test:
+    name: test
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@master
+        with:
+          node-version: 16.x
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - run: pnpm i --frozen-lockfile=false
+        shell: bash
+
+      - run: pnpm test
         shell: bash
 
   typecheck:
@@ -60,8 +92,12 @@ jobs:
         with:
           node-version: 16.x
 
-      - run: yarn --frozen-lockfile
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - run: pnpm i --frozen-lockfile=false
         shell: bash
 
-      - run: yarn test:typecheck
+      - run: pnpm test:typecheck
         shell: bash
