@@ -20,15 +20,19 @@ jobs:
         with:
           node-version: 16.x
 
-      - run: yarn --frozen-lockfile
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
+
+      - run: pnpm i --frozen-lockfile=false
         shell: bash
 
       - uses: changesets/action@v1
         with:
-          version: yarn ci:version
+          version: pnpm ci:version
           commit: "ci(changesets): version packages"
           title: "ci(changesets): version packages"
-          publish: yarn ci:publish
+          publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
