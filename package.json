@@ -23,7 +23,7 @@
     "@changesets/cli": "^2.26.1",
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
-    "@ddddurk/cli": "^0.1.4",
+    "@ddddurk/cli": "^1.0.0",
     "@dddstack/droplet": "^0.0.6",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
