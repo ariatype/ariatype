@@ -39,7 +39,13 @@ export type AriaAttributesGlobal = {
    *
    * {@link Deprecated: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-dropeffect}
    */
-  "aria-dropeffect"?: "copy" | "execute" | "link" | "move" | "popup" | "none";
+  "aria-dropeffect"?:
+    | "copy"
+    | "execute"
+    | "link"
+    | "move"
+    | "popup"
+    | "none";
   /**
    * Identifies the element that provides an error message for that object.
    */

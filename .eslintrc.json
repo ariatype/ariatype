@@ -1,9 +1,30 @@
 {
   "$schema": "http://json.schemastore.org/eslintrc",
+  "extends": ["plugin:astro/recommended"],
   "ignorePatterns": ["node_modules"],
+  "overrides": [
+    {
+      "files": ["*.astro"],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [".astro"]
+      }
+    },
+    {
+      "files": ["*.mdx"],
+      "extends": "plugin:mdx/recommended"
+    },
+    {
+      "files": ["*.yaml"],
+      "plugins": ["yaml"],
+      "extends": ["plugin:yaml/recommended"]
+    }
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "@typescript-eslint",
+    "astro",
     "prettier",
     "simple-import-sort",
     "unused-imports"

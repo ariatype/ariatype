@@ -4,7 +4,13 @@ export type AriaAttributesDragAndDrop = {
    *
    * {@link Deprecated: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-dropeffect}
    */
-  "aria-dropeffect"?: "copy" | "execute" | "link" | "move" | "popup" | "none";
+  "aria-dropeffect"?:
+    | "copy"
+    | "execute"
+    | "link"
+    | "move"
+    | "popup"
+    | "none";
   /**
    * Indicates an element's "grabbed" state in a drag-and-drop operation.
    *
