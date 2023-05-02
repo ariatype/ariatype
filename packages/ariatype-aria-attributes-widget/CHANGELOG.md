@@ -1,5 +1,28 @@
 # @dddstack/ariatype-aria-attributes-widget
 
+## 1.0.0
+
+### Major Changes
+
+- 4759ec8: Publish 1.0.0
+
+  - `@dddstack/ariatype-aria-attributes-drag-and-drop`
+  - `@dddstack/ariatype-aria-attributes-relationship`
+  - `@dddstack/ariatype-aria-attributes-live-region`
+  - `@dddstack/ariatype-partially-required-props`
+  - `@dddstack/ariatype-aria-attributes-global`
+  - `@dddstack/ariatype-aria-roles-live-region`
+  - `@dddstack/ariatype-aria-roles-composite`
+  - `@dddstack/ariatype-aria-roles-landmark`
+  - `@dddstack/ariatype-aria-roles-window`
+  - `@dddstack/ariatype`
+  - `@dddstack/ariatype-aria-attributes`
+  - `@dddstack/ariatype-aria-attributes-widget`
+  - `@dddstack/ariatype-aria-roles`
+  - `@dddstack/ariatype-aria-roles-document-structure`
+  - `@dddstack/ariatype-aria-roles-generic`
+  - `@dddstack/ariatype-aria-roles-widget`
+
 ## 0.2.0
 
 ### Minor Changes
