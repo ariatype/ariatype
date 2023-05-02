@@ -1,5 +1,11 @@
 # @dddstack/ariatype
 
+## 1.0.1
+
+### Patch Changes
+
+- a9f9918: Update documentation
+
 ## 1.0.0
 
 ### Major Changes
