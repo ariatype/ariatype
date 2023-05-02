@@ -2,4 +2,4 @@
 
 ## Documentation
 
-For comprehensive documentation, vist [https://ariatype.dddstack.com](https://ariatype.dddstack.com).
+For comprehensive documentation, vist [ariatype.dddstack.com](https://ariatype.dddstack.com).
