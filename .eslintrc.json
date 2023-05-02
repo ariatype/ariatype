@@ -25,6 +25,7 @@
   "plugins": [
     "@typescript-eslint",
     "astro",
+    "json",
     "prettier",
     "simple-import-sort",
     "unused-imports"

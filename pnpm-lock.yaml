@@ -34,6 +34,9 @@ importers:
       eslint-plugin-astro:
         specifier: ^0.26.1
         version: 0.26.1(eslint@8.39.0)
+      eslint-plugin-json:
+        specifier: ^3.1.0
+        version: 3.1.0
       eslint-plugin-mdx:
         specifier: ^2.0.5
         version: 2.0.5(eslint@8.39.0)
@@ -108,49 +111,49 @@ importers:
   packages/ariatype:
     dependencies:
       '@dddstack/ariatype-aria-attributes':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-widget
       '@dddstack/ariatype-aria-roles':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-window
       '@dddstack/ariatype-partially-required-props':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-partially-required-props
     devDependencies:
       tsup:
@@ -163,19 +166,19 @@ importers:
   packages/ariatype-aria-attributes:
     dependencies:
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-attributes-widget
     devDependencies:
       tsup:
@@ -233,25 +236,25 @@ importers:
   packages/ariatype-aria-roles:
     dependencies:
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-window
     devDependencies:
       tsup:
@@ -264,7 +267,7 @@ importers:
   packages/ariatype-aria-roles-composite:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -277,7 +280,7 @@ importers:
   packages/ariatype-aria-roles-document-structure:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -299,7 +302,7 @@ importers:
   packages/ariatype-aria-roles-landmark:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -312,7 +315,7 @@ importers:
   packages/ariatype-aria-roles-live-region:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -325,7 +328,7 @@ importers:
   packages/ariatype-aria-roles-widget:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -338,7 +341,7 @@ importers:
   packages/ariatype-aria-roles-window:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 0.2.0
+        specifier: 1.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -3032,6 +3035,14 @@ packages:
       - supports-color
     dev: true
 
+  /eslint-plugin-json@3.1.0:
+    resolution: {integrity: sha512-MrlG2ynFEHe7wDGwbUuFPsaT2b1uhuEFhJ+W1f1u+1C2EkXmTYJp4B1aAdQQ8M+CC3t//N/oRKiIVw14L2HR1g==}
+    engines: {node: '>=12.0'}
+    dependencies:
+      lodash: 4.17.21
+      vscode-json-languageservice: 4.2.1
+    dev: true
+
   /eslint-plugin-markdown@3.0.0(eslint@8.39.0):
     resolution: {integrity: sha512-hRs5RUJGbeHDLfS7ELanT0e29Ocyssf/7kBM+p7KluY5AwngGkDf8Oyu4658/NZSGTTq05FZeWbkxXtbVyHPwg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -4300,7 +4311,6 @@ packages:
 
   /jsonc-parser@3.2.0:
     resolution: {integrity: sha512-gfFQZrcTc8CnKXp6Y4/CBT3fTc0OVuDofpre4aEeEpSBPV5X5v4+Vmx+8snU7RLPrNHPKSgLxGo9YuQzz20o+w==}
-    dev: false
 
   /jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
@@ -7085,6 +7095,16 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
+  /vscode-json-languageservice@4.2.1:
+    resolution: {integrity: sha512-xGmv9QIWs2H8obGbWg+sIPI/3/pFgj/5OWBhNzs00BkYQ9UaB2F6JJaGB/2/YOZJ3BvLXQTC4Q7muqU25QgAhA==}
+    dependencies:
+      jsonc-parser: 3.2.0
+      vscode-languageserver-textdocument: 1.0.8
+      vscode-languageserver-types: 3.17.3
+      vscode-nls: 5.2.0
+      vscode-uri: 3.0.7
+    dev: true
+
   /vscode-jsonrpc@8.1.0:
     resolution: {integrity: sha512-6TDy/abTQk+zDGYazgbIPc+4JoXdwC8NHU9Pbn4UJP1fehUyZmM4RHp5IthX7A6L5KS30PRui+j+tbbMMMafdw==}
     engines: {node: '>=14.0.0'}
@@ -7099,11 +7119,9 @@ packages:
 
   /vscode-languageserver-textdocument@1.0.8:
     resolution: {integrity: sha512-1bonkGqQs5/fxGT5UchTgjGVnfysL0O8v1AYMBjqTbWQTFn721zaPGDYFkOKtfDgFiSgXM3KwaG3FMGfW4Ed9Q==}
-    dev: false
 
   /vscode-languageserver-types@3.17.3:
     resolution: {integrity: sha512-SYU4z1dL0PyIMd4Vj8YOqFvHu7Hz/enbWtpfnVbJHU4Nd1YNYx8u0ennumc6h48GQNeOLxmwySmnADouT/AuZA==}
-    dev: false
 
   /vscode-languageserver@8.1.0:
     resolution: {integrity: sha512-eUt8f1z2N2IEUDBsKaNapkz7jl5QpskN2Y0G01T/ItMxBxw1fJwvtySGB9QMecatne8jFIWJGWI61dWjyTLQsw==}
@@ -7111,6 +7129,10 @@ packages:
     dependencies:
       vscode-languageserver-protocol: 3.17.3
     dev: false
+
+  /vscode-nls@5.2.0:
+    resolution: {integrity: sha512-RAaHx7B14ZU04EU31pT+rKz2/zSl7xMsfIZuo8pd+KZO6PXtQmpevpq3vxvWNcrGbdmhM/rr5Uw5Mz+NBfhVng==}
+    dev: true
 
   /vscode-oniguruma@1.7.0:
     resolution: {integrity: sha512-L9WMGRfrjOhgHSdOYgCt/yRMsXzLDJSL7BPrOZt73gU0iWO4mpqzqQzOz5srxqTvMBaR0XZTSrVWo4j55Rc6cA==}
@@ -7126,7 +7148,6 @@ packages:
 
   /vscode-uri@3.0.7:
     resolution: {integrity: sha512-eOpPHogvorZRobNqJGhapa0JdwaxpjVvyBp0QIUMRMSf8ZAlqOdEquKuRmw9Qwu0qXtJIWqFtMkmvJjUZmMjVA==}
-    dev: false
 
   /wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
