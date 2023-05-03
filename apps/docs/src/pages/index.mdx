@@ -7,7 +7,7 @@ import { Stack, Text, Title } from "@dddstack/davaiui-astro";
 import { data } from "../lib";
 
 <Stack class="items-center space-y-6 pb-12 text-center md:pb-16">
-  <Title class="text-3xl font-extrabold md:text-4xl">
+  <Title class="text-3xl font-extrabold md:text-4xl lg:text-5xl">
     {data.title}
   </Title>
   <Text class="text-xl font-light text-gray-600 md:text-2xl">
@@ -38,7 +38,7 @@ const aria: AriaTypes = {
 
 ## Requiring Aria Attributes
 
-The following example shows how Ariatype may be used to enforce type-safe WAI-ARIA attributes on a reusable component:
+The following example shows how Ariatype may be used to enforce type-safe WAI-ARIA attributes on a React component:
 
 ```tsx
 import type { PartiallyRequiredAriaTypes } from "@dddstack/ariatype";
@@ -52,6 +52,7 @@ interface Props extends
 export const Component = ({ children, ...props }: Props) =>
   <div {...props}>{children}</div>;
 
+// Valid
 <Component aria-atomic="true" role="alert">Component</Component>
 
 // Missing the following properties from type 'Props':
@@ -61,7 +62,7 @@ export const Component = ({ children, ...props }: Props) =>
 
 ## Packages
 
-`@dddstack/ariatype` is a bundle of multiple packages:
+Ariatype is a bundle of multiple packages:
 
 - [`@dddstack/ariatype-aria-attributes`](https://github.com/dddstack/ariatype/tree/main/packages/ariatype-aria-attributes):
   - `ariaAttributes`: all aria attributes

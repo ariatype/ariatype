@@ -20,8 +20,8 @@ importers:
         specifier: ^1.1.4
         version: 1.1.4
       '@dddstack/droplet':
-        specifier: latest
-        version: 2.1.2
+        specifier: ^2.1.5
+        version: 2.1.5
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.58.0
         version: 5.59.0(@typescript-eslint/parser@5.59.0)(eslint@8.39.0)(typescript@5.0.4)
@@ -81,7 +81,7 @@ importers:
     dependencies:
       '@astrojs/mdx':
         specifier: ^0.19.0
-        version: 0.19.0(astro@2.3.3)(rollup@3.21.0)
+        version: 0.19.0(astro@2.3.3)(rollup@3.21.3)
       '@astrojs/sitemap':
         specifier: ^1.2.2
         version: 1.2.2
@@ -428,14 +428,14 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@0.19.0(astro@2.3.3)(rollup@3.21.0):
+  /@astrojs/mdx@0.19.0(astro@2.3.3)(rollup@3.21.3):
     resolution: {integrity: sha512-McFpMV+npinIEKnY5t9hsdzLd76g78GgIRUPxem2OeXPNB8xr2pNS28GeU0+6Pn5STnB+sgcyyeqXLgzauOlMQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.1.4(astro@2.3.3)
       '@astrojs/prism': 2.1.1
       '@mdx-js/mdx': 2.3.0
-      '@mdx-js/rollup': 2.3.0(rollup@3.21.0)
+      '@mdx-js/rollup': 2.3.0(rollup@3.21.3)
       acorn: 8.8.2
       es-module-lexer: 1.2.1
       estree-util-visit: 1.2.1
@@ -1146,11 +1146,22 @@ packages:
       handlebars: 4.7.7
     dev: true
 
-  /@dddstack/droplet@2.1.2:
-    resolution: {integrity: sha512-8ALI6GS/rsKMCWiQ8+08aazltKmKuo5MdAPW3j2GIKF2Qayu3xNXYHsRUlTABvmY3kLttsa2T2odGDQg6Gua3g==}
+  /@dddstack/droplet-core@2.1.4:
+    resolution: {integrity: sha512-IKEgjnxksejhWIfz/bXofOzkjsOYDip9jF9uXpWzofR6w4DOL8wCZ0WhbK5p0IRIxEN3xhHTbyHaplXaMrlv2A==}
+    dependencies:
+      '@astrojs/cli-kit': 0.2.3
+      '@ddddurk/colors': 1.0.2
+      '@ddddurk/kit': 1.1.2
+      chalk: 5.2.0
+      commander: 10.0.1
+      handlebars: 4.7.7
+    dev: true
+
+  /@dddstack/droplet@2.1.5:
+    resolution: {integrity: sha512-BdeSZNYHbU7SnTYpwz8gnsqUYHQsEQndNfuBT6uDS5rHRNUy+6Bs6buczr9Tk+mGttCJZFv7Zv0Blle4sKkA8g==}
     hasBin: true
     dependencies:
-      '@dddstack/droplet-core': 2.1.2
+      '@dddstack/droplet-core': 2.1.4
     dev: true
 
   /@emmetio/abbreviation@2.3.2:
@@ -1488,14 +1499,14 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/rollup@2.3.0(rollup@3.21.0):
+  /@mdx-js/rollup@2.3.0(rollup@3.21.3):
     resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@rollup/pluginutils': 5.0.2(rollup@3.21.0)
-      rollup: 3.21.0
+      '@rollup/pluginutils': 5.0.2(rollup@3.21.3)
+      rollup: 3.21.3
       source-map: 0.7.4
       vfile: 5.3.7
     transitivePeerDependencies:
@@ -1538,7 +1549,7 @@ packages:
       escalade: 3.1.1
     dev: false
 
-  /@rollup/pluginutils@5.0.2(rollup@3.21.0):
+  /@rollup/pluginutils@5.0.2(rollup@3.21.3):
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1550,7 +1561,7 @@ packages:
       '@types/estree': 1.0.1
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.21.0
+      rollup: 3.21.3
     dev: false
 
   /@trysound/sax@0.2.0:
@@ -6046,6 +6057,14 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+
+  /rollup@3.21.3:
+    resolution: {integrity: sha512-VnPfEG51nIv2xPLnZaekkuN06q9ZbnyDcLkaBdJa/W7UddyhOfMP2yOPziYQfeY7k++fZM8FdQIummFN5y14kA==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: false
 
   /run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
