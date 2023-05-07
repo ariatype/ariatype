@@ -1,5 +1,19 @@
 # @dddstack/ariatype-aria-roles
 
+## 1.0.2
+
+### Patch Changes
+
+- f3863ea: Update README.md
+- Updated dependencies [f3863ea]
+  - @dddstack/ariatype-aria-roles-document-structure@1.0.2
+  - @dddstack/ariatype-aria-roles-live-region@1.0.2
+  - @dddstack/ariatype-aria-roles-composite@1.0.2
+  - @dddstack/ariatype-aria-roles-landmark@1.0.2
+  - @dddstack/ariatype-aria-roles-generic@1.0.2
+  - @dddstack/ariatype-aria-roles-widget@1.0.2
+  - @dddstack/ariatype-aria-roles-window@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

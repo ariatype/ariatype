@@ -1,5 +1,17 @@
 # @dddstack/ariatype-aria-attributes
 
+## 1.0.2
+
+### Patch Changes
+
+- f3863ea: Update README.md
+- Updated dependencies [f3863ea]
+  - @dddstack/ariatype-aria-attributes-drag-and-drop@1.0.2
+  - @dddstack/ariatype-aria-attributes-relationship@1.0.2
+  - @dddstack/ariatype-aria-attributes-live-region@1.0.2
+  - @dddstack/ariatype-aria-attributes-global@1.0.2
+  - @dddstack/ariatype-aria-attributes-widget@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

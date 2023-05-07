@@ -1,5 +1,13 @@
 # @dddstack/ariatype-aria-roles-landmark
 
+## 1.0.2
+
+### Patch Changes
+
+- f3863ea: Update README.md
+- Updated dependencies [f3863ea]
+  - @dddstack/ariatype-aria-roles-generic@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
