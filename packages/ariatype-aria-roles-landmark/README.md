@@ -1,13 +1,7 @@
-# @dddstack/ariatype-aria-roles-landmark
+# @dddstack/{{droplet}}
 
-`@dddstack/ariatype-aria-roles-landmark` for `@dddstack/ariatype`.
+`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
 
-## Installation
+## Documentation
 
-```bash
-npm install @dddstack/ariatype-aria-roles-landmark -D
-# or
-yarn add @dddstack/ariatype-aria-roles-landmark -D
-# or
-pnpm add @dddstack/ariatype-aria-roles-landmark -D
-```
+- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)

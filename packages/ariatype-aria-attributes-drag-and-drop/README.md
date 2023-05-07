@@ -1,13 +1,7 @@
-# @dddstack/ariatype-aria-attributes-drag-and-drop
+# @dddstack/{{droplet}}
 
-`@dddstack/ariatype-aria-attributes-drag-and-drop` for `@dddstack/ariatype`.
+`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
 
-## Installation
+## Documentation
 
-```bash
-npm install @dddstack/ariatype-aria-attributes-drag-and-drop -D
-# or
-yarn add @dddstack/ariatype-aria-attributes-drag-and-drop -D
-# or
-pnpm add @dddstack/ariatype-aria-attributes-drag-and-drop -D
-```
+- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)

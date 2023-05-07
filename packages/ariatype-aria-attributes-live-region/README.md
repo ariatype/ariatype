@@ -1,13 +1,7 @@
-# @dddstack/ariatype-aria-attributes-live-region
+# @dddstack/{{droplet}}
 
-`@dddstack/ariatype-aria-attributes-live-region` for `@dddstack/ariatype`.
+`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
 
-## Installation
+## Documentation
 
-```bash
-npm install @dddstack/ariatype-aria-attributes-live-region -D
-# or
-yarn add @dddstack/ariatype-aria-attributes-live-region -D
-# or
-pnpm add @dddstack/ariatype-aria-attributes-live-region -D
-```
+- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)

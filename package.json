@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "turbo run build --filter=./packages/*",
-    "build:watch": "turbo run build:watch --filter=./packages/*",
+    "build": "turbo run build",
+    "build:watch": "turbo run build:watch",
     "changeset": "changeset",
     "chore:lint": "pnpm chore:lint:prettier && pnpm chore:lint:eslint",
     "chore:lint:eslint": "eslint --fix './**/*.{js,json,yaml}'",
@@ -14,7 +14,6 @@
     "ci:version": "changeset version",
     "ci:version:snapshot": "changeset version --snapshot snapshot",
     "ddddurk": "ddddurk",
-    "dev": "turbo run dev",
     "droplet": "droplet",
     "prepare": "husky install",
     "test:typecheck": "turbo run test:typecheck"
@@ -29,9 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
     "eslint": "^8.39.0",
-    "eslint-plugin-astro": "^0.26.1",
     "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-mdx": "^2.0.5",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
@@ -39,9 +36,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
-    "prettier-plugin-astro": "^0.8.0",
     "prettier-plugin-packagejson": "^2.4.3",
-    "prettier-plugin-tailwindcss": "^0.2.8",
     "turbo": "^1.9.0",
     "typescript": "^5.0.4"
   }
