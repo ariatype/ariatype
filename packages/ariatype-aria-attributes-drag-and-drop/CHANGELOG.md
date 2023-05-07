@@ -1,5 +1,11 @@
 # @dddstack/ariatype-aria-attributes-drag-and-drop
 
+## 1.0.1
+
+### Patch Changes
+
+- 47a28fb: Update README.md
+
 ## 1.0.0
 
 ### Major Changes

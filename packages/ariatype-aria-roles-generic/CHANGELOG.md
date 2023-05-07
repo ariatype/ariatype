@@ -1,5 +1,11 @@
 # @dddstack/ariatype-aria-roles-generic
 
+## 1.0.1
+
+### Patch Changes
+
+- 47a28fb: Update README.md
+
 ## 1.0.0
 
 ### Major Changes

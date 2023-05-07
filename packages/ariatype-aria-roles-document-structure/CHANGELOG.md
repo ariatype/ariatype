@@ -1,5 +1,13 @@
 # @dddstack/ariatype-aria-roles-document-structure
 
+## 1.0.1
+
+### Patch Changes
+
+- 47a28fb: Update README.md
+- Updated dependencies [47a28fb]
+  - @dddstack/ariatype-aria-roles-generic@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
