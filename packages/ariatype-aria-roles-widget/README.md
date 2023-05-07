@@ -1,13 +1,7 @@
-# @dddstack/ariatype-aria-roles-widget
+# @dddstack/{{droplet}}
 
-`@dddstack/ariatype-aria-roles-widget` for `@dddstack/ariatype`.
+`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
 
-## Installation
+## Documentation
 
-```bash
-npm install @dddstack/ariatype-aria-roles-widget -D
-# or
-yarn add @dddstack/ariatype-aria-roles-widget -D
-# or
-pnpm add @dddstack/ariatype-aria-roles-widget -D
-```
+- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)

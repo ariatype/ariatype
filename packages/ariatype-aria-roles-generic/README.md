@@ -1,13 +1,7 @@
-# @dddstack/ariatype-aria-roles-generic
+# @dddstack/{{droplet}}
 
-`@dddstack/ariatype-aria-roles-generic` for `@dddstack/ariatype`.
+`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
 
-## Installation
+## Documentation
 
-```bash
-npm install @dddstack/ariatype-aria-roles-generic -D
-# or
-yarn add @dddstack/ariatype-aria-roles-generic -D
-# or
-pnpm add @dddstack/ariatype-aria-roles-generic -D
-```
+- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)

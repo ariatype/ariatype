@@ -1,13 +1,7 @@
-# @dddstack/ariatype-aria-attributes-global
+# @dddstack/{{droplet}}
 
-`@dddstack/ariatype-aria-attributes-global` for `@dddstack/ariatype`.
+`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
 
-## Installation
+## Documentation
 
-```bash
-npm install @dddstack/ariatype-aria-attributes-global -D
-# or
-yarn add @dddstack/ariatype-aria-attributes-global -D
-# or
-pnpm add @dddstack/ariatype-aria-attributes-global -D
-```
+- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)
