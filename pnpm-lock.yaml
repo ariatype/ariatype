@@ -68,49 +68,49 @@ importers:
   packages/ariatype:
     dependencies:
       '@dddstack/ariatype-aria-attributes':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-widget
       '@dddstack/ariatype-aria-roles':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-window
       '@dddstack/ariatype-partially-required-props':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-partially-required-props
     devDependencies:
       tsup:
@@ -123,19 +123,19 @@ importers:
   packages/ariatype-aria-attributes:
     dependencies:
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-attributes-widget
     devDependencies:
       tsup:
@@ -193,25 +193,25 @@ importers:
   packages/ariatype-aria-roles:
     dependencies:
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-window
     devDependencies:
       tsup:
@@ -224,7 +224,7 @@ importers:
   packages/ariatype-aria-roles-composite:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -237,7 +237,7 @@ importers:
   packages/ariatype-aria-roles-document-structure:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -259,7 +259,7 @@ importers:
   packages/ariatype-aria-roles-landmark:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -272,7 +272,7 @@ importers:
   packages/ariatype-aria-roles-live-region:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -285,7 +285,7 @@ importers:
   packages/ariatype-aria-roles-widget:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -298,7 +298,7 @@ importers:
   packages/ariatype-aria-roles-window:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.0
+        specifier: 1.0.2
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
