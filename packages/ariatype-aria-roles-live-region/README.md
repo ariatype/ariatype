@@ -1,7 +1,7 @@
-# @dddstack/{{droplet}}
+# @dddstack/ariatype-aria-roles-live-region
 
-`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
+@dddstack/ariatype-aria-roles-live-region
 
 ## Documentation
 
-- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)
+For comprehensive documentation, view [`@dddstack/ariatype`](https://github.com/dddstack/ariatype).
