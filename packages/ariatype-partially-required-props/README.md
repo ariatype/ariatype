@@ -1,7 +1,7 @@
-# @dddstack/{{droplet}}
+# @dddstack/ariatype-partially-required-props
 
-`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
+@dddstack/ariatype-partially-required-props
 
 ## Documentation
 
-- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)
+For comprehensive documentation, view [`@dddstack/ariatype`](https://github.com/dddstack/ariatype).

@@ -1,7 +1,7 @@
-# @dddstack/{{droplet}}
+# @dddstack/ariatype-aria-roles-widget
 
-`@dddstack/{{droplet}}` for `@dddstack/ariatype`.
+@dddstack/ariatype-aria-roles-widget
 
 ## Documentation
 
-- [`@dddstack/ariatype`](https://github.com/dddstack/ariatype)
+For comprehensive documentation, view [`@dddstack/ariatype`](https://github.com/dddstack/ariatype).
