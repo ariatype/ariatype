@@ -1,5 +1,11 @@
 # @dddstack/ariatype-partially-required-props
 
+## 1.0.2
+
+### Patch Changes
+
+- f3863ea: Update README.md
+
 ## 1.0.1
 
 ### Patch Changes
