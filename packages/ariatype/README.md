@@ -21,7 +21,7 @@ const aria: AriaTypes = {
 
 ## Requiring Aria Attributes
 
-Use `PartiallyRequiredAriaTypes` to create enofrce WAI-Attributes for a TypeScript type:
+Use `PartiallyRequiredAriaTypes` to require WAI-Attributes for a TypeScript type:
 
 ```ts
 import type { PartiallyRequiredAriaTypes } from "@dddstack/ariatype";
