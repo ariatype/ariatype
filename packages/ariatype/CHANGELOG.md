@@ -1,5 +1,11 @@
 # @dddstack/ariatype
 
+## 1.0.4
+
+### Patch Changes
+
+- 33299fd: Fix README.md typo
+
 ## 1.0.3
 
 ### Patch Changes
