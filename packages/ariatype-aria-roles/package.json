@@ -35,7 +35,7 @@
     "@dddstack/ariatype-aria-roles-window": "1.0.2"
   },
   "devDependencies": {
-    "tsup": "^6.7.0",
+    "tsup": "^7.0.0",
     "typescript": "^5.0.4"
   },
   "publishConfig": {
