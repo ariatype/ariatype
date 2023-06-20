@@ -1,5 +1,17 @@
 # @dddstack/ariatype-aria-attributes
 
+## 1.0.3
+
+### Patch Changes
+
+- 1a2075b: Maintenance 06/20/23
+- Updated dependencies [1a2075b]
+  - @dddstack/ariatype-aria-attributes-drag-and-drop@1.0.3
+  - @dddstack/ariatype-aria-attributes-relationship@1.0.3
+  - @dddstack/ariatype-aria-attributes-live-region@1.0.3
+  - @dddstack/ariatype-aria-attributes-global@1.0.3
+  - @dddstack/ariatype-aria-attributes-widget@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes
