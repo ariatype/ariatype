@@ -1,5 +1,11 @@
 # @dddstack/ariatype-aria-roles-generic
 
+## 1.0.3
+
+### Patch Changes
+
+- 1a2075b: Maintenance 06/20/23
+
 ## 1.0.2
 
 ### Patch Changes

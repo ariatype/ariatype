@@ -1,6 +1,6 @@
 {
   "name": "@dddstack/ariatype-aria-roles-composite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "@dddstack/ariatype-aria-roles-composite",
   "keywords": [],
   "homepage": "https://github.com/dddstack/ariatype",
@@ -28,7 +28,7 @@
     "tsup": "tsup"
   },
   "dependencies": {
-    "@dddstack/ariatype-aria-roles-generic": "1.0.2"
+    "@dddstack/ariatype-aria-roles-generic": "1.0.3"
   },
   "devDependencies": {
     "tsup": "^7.0.0",
