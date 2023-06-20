@@ -2,7 +2,8 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "downlevelIteration": true,
-    "lib": ["ES2022"]
+    "lib": ["ES2022"],
+    "moduleResolution": "node"
   },
   "include": ["src"]
 }

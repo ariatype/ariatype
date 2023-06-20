@@ -23,11 +23,13 @@
   "scripts": {
     "build": "tsup",
     "build:watch": "tsup --watch",
-    "test:typecheck": "tsc --noEmit"
+    "test:typecheck": "tsc --noEmit",
+    "tsc": "tsc",
+    "tsup": "tsup"
   },
   "dependencies": {},
   "devDependencies": {
-    "tsup": "^6.7.0",
+    "tsup": "^7.0.0",
     "typescript": "^5.0.4"
   },
   "publishConfig": {
