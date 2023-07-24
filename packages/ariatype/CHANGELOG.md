@@ -1,5 +1,30 @@
 # @dddstack/ariatype
 
+## 2.0.0
+
+### Major Changes
+
+- ab43c0e: 2.0.0
+
+### Patch Changes
+
+- Updated dependencies [ab43c0e]
+  - @dddstack/ariatype-aria-attributes-drag-and-drop@2.0.0
+  - @dddstack/ariatype-aria-roles-document-structure@2.0.0
+  - @dddstack/ariatype-aria-attributes-relationship@2.0.0
+  - @dddstack/ariatype-aria-attributes-live-region@2.0.0
+  - @dddstack/ariatype-partially-required-props@2.0.0
+  - @dddstack/ariatype-aria-attributes-global@2.0.0
+  - @dddstack/ariatype-aria-attributes-widget@2.0.0
+  - @dddstack/ariatype-aria-roles-live-region@2.0.0
+  - @dddstack/ariatype-aria-roles-composite@2.0.0
+  - @dddstack/ariatype-aria-roles-landmark@2.0.0
+  - @dddstack/ariatype-aria-roles-generic@2.0.0
+  - @dddstack/ariatype-aria-roles-widget@2.0.0
+  - @dddstack/ariatype-aria-roles-window@2.0.0
+  - @dddstack/ariatype-aria-attributes@2.0.0
+  - @dddstack/ariatype-aria-roles@2.0.0
+
 ## 1.0.5
 
 ### Patch Changes

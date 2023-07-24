@@ -1,6 +1,6 @@
 {
   "name": "@dddstack/ariatype-aria-roles",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "@dddstack/ariatype-aria-roles",
   "keywords": [],
   "homepage": "https://github.com/dddstack/ariatype",
@@ -31,13 +31,13 @@
     "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
-    "@dddstack/ariatype-aria-roles-composite": "1.0.3",
-    "@dddstack/ariatype-aria-roles-document-structure": "1.0.3",
-    "@dddstack/ariatype-aria-roles-generic": "1.0.3",
-    "@dddstack/ariatype-aria-roles-landmark": "1.0.3",
-    "@dddstack/ariatype-aria-roles-live-region": "1.0.3",
-    "@dddstack/ariatype-aria-roles-widget": "1.0.3",
-    "@dddstack/ariatype-aria-roles-window": "1.0.3"
+    "@dddstack/ariatype-aria-roles-composite": "2.0.0",
+    "@dddstack/ariatype-aria-roles-document-structure": "2.0.0",
+    "@dddstack/ariatype-aria-roles-generic": "2.0.0",
+    "@dddstack/ariatype-aria-roles-landmark": "2.0.0",
+    "@dddstack/ariatype-aria-roles-live-region": "2.0.0",
+    "@dddstack/ariatype-aria-roles-widget": "2.0.0",
+    "@dddstack/ariatype-aria-roles-window": "2.0.0"
   },
   "devDependencies": {
     "tsup": "^7.0.0",

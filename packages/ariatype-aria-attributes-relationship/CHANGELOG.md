@@ -1,5 +1,11 @@
 # @dddstack/ariatype-aria-attributes-relationship
 
+## 2.0.0
+
+### Major Changes
+
+- ab43c0e: 2.0.0
+
 ## 1.0.3
 
 ### Patch Changes

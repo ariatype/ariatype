@@ -1,5 +1,20 @@
 # @dddstack/ariatype-aria-attributes
 
+## 2.0.0
+
+### Major Changes
+
+- ab43c0e: 2.0.0
+
+### Patch Changes
+
+- Updated dependencies [ab43c0e]
+  - @dddstack/ariatype-aria-attributes-drag-and-drop@2.0.0
+  - @dddstack/ariatype-aria-attributes-relationship@2.0.0
+  - @dddstack/ariatype-aria-attributes-live-region@2.0.0
+  - @dddstack/ariatype-aria-attributes-global@2.0.0
+  - @dddstack/ariatype-aria-attributes-widget@2.0.0
+
 ## 1.0.3
 
 ### Patch Changes
