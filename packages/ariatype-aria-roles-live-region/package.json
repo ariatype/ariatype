@@ -1,6 +1,6 @@
 {
   "name": "@dddstack/ariatype-aria-roles-live-region",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "@dddstack/ariatype-aria-roles-live-region",
   "keywords": [],
   "homepage": "https://github.com/dddstack/ariatype",
@@ -31,7 +31,7 @@
     "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
-    "@dddstack/ariatype-aria-roles-generic": "1.0.3"
+    "@dddstack/ariatype-aria-roles-generic": "2.0.0"
   },
   "devDependencies": {
     "tsup": "^7.0.0",
