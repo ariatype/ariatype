@@ -51,7 +51,7 @@ jobs:
       - run: pnpm i --frozen-lockfile=false
         shell: bash
 
-      - run: pnpm chore:lint
+      - run: pnpm lint
         shell: bash
 
   typecheck:
@@ -75,5 +75,5 @@ jobs:
       - run: pnpm i --frozen-lockfile=false
         shell: bash
 
-      - run: pnpm test:typecheck
+      - run: pnpm typecheck
         shell: bash

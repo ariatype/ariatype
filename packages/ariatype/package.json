@@ -16,7 +16,7 @@
     "directory": "packages/ariatype"
   },
   "license": "MIT",
-  "author": "ddddurk <ddddurk@proton.me>",
+  "author": "Durk Steed Jr. <durksteedjr.code@proton.me>",
   "type": "module",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -24,11 +24,14 @@
     "./dist"
   ],
   "scripts": {
-    "build": "tsup",
-    "build:watch": "tsup --watch",
-    "test:typecheck": "tsc --noEmit",
+    "build": "pnpm tsup:build",
+    "dev": "pnpm tsup:dev",
     "tsc": "tsc",
-    "tsup": "tsup"
+    "tsc:typecheck": "pnpm tsc --noEmit",
+    "tsup": "tsup",
+    "tsup:build": "pnpm tsup",
+    "tsup:dev": "pnpm tsup --watch",
+    "typecheck": "pnpm tsc:typecheck"
   },
   "dependencies": {
     "@dddstack/ariatype-aria-attributes": "1.0.3",
