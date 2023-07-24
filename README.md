@@ -1,1 +1,1 @@
-./packages/ariatype/README.md
+docs/docs.md

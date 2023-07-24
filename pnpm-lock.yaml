@@ -20,12 +20,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^17.4.4
         version: 17.6.1
-      '@ddddurk/cli':
-        specifier: latest
-        version: 1.1.7
-      '@dddstack/droplet':
-        specifier: ^2.1.5
-        version: 2.1.5
+      '@durksteedjr/cli':
+        specifier: ^2.0.0
+        version: 2.0.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.58.0
         version: 5.59.0(@typescript-eslint/parser@5.59.0)(eslint@8.39.0)(typescript@5.0.4)
@@ -72,49 +69,49 @@ importers:
   packages/ariatype:
     dependencies:
       '@dddstack/ariatype-aria-attributes':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-widget
       '@dddstack/ariatype-aria-roles':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-window
       '@dddstack/ariatype-partially-required-props':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-partially-required-props
     devDependencies:
       tsup:
@@ -127,19 +124,19 @@ importers:
   packages/ariatype-aria-attributes:
     dependencies:
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-attributes-widget
     devDependencies:
       tsup:
@@ -197,25 +194,25 @@ importers:
   packages/ariatype-aria-roles:
     dependencies:
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-window
     devDependencies:
       tsup:
@@ -228,7 +225,7 @@ importers:
   packages/ariatype-aria-roles-composite:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -241,7 +238,7 @@ importers:
   packages/ariatype-aria-roles-document-structure:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -263,7 +260,7 @@ importers:
   packages/ariatype-aria-roles-landmark:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -276,7 +273,7 @@ importers:
   packages/ariatype-aria-roles-live-region:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -289,7 +286,7 @@ importers:
   packages/ariatype-aria-roles-widget:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -302,7 +299,7 @@ importers:
   packages/ariatype-aria-roles-window:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.2
+        specifier: 1.0.3
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -322,14 +319,6 @@ importers:
         version: 5.0.4
 
 packages:
-
-  /@astrojs/cli-kit@0.2.3:
-    resolution: {integrity: sha512-MjB42mpIG/F2rFtdp4f3NylFCILuFSib2yITSq65fRaDFn8+UC8EMh6T7Jr3YqHAbUY5r8V8QWNgH4keOEO2BA==}
-    dependencies:
-      chalk: 5.2.0
-      log-update: 5.0.1
-      sisteransi: 1.0.5
-    dev: true
 
   /@babel/code-frame@7.21.4:
     resolution: {integrity: sha512-LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==}
@@ -718,42 +707,20 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@ddddurk/cli@1.1.7:
-    resolution: {integrity: sha512-eFYScm4xhZHDtRQudd38sinUmxi8GCQniPV+23I6jr4RaVqC8THNgFANNAIYR6nAoV5vkUNGo6GSHBPDmLFRbw==}
+  /@durksteedjr/cli@2.0.0:
+    resolution: {integrity: sha512-h7FNrpXp1WD/bQ5zHkFt09B1MWnzB6bJu8E41QjSNFg/0AJcVDanehK2Uq9PnFYKDT5MgHZmFWqqDk9t7CDvVg==}
     hasBin: true
     dependencies:
-      '@ddddurk/colors': 1.0.2
-      '@ddddurk/kit': 1.1.2
-      '@dddstack/droplet-core': 2.1.4
-      chalk: 5.2.0
+      '@durksteedjr/colors': 2.0.0
+      chalk: 5.3.0
+      commander: 11.0.0
+      fs-extra: 11.1.1
+      gradient-string: 2.0.2
+      word-wrap: 1.2.3
     dev: true
 
-  /@ddddurk/colors@1.0.2:
-    resolution: {integrity: sha512-aQFVjf3SM7AhYy9kiSqXtgTpNAA8tabO+xD5IbWLSxePRkAXCiO/7Ol0PfqeWPgDJZA4u3d8mir6PAIP+Em/TA==}
-    dev: true
-
-  /@ddddurk/kit@1.1.2:
-    resolution: {integrity: sha512-jkSFPdp0DFXmfSBPkDyaav75JpKRdmV216hiO12SW9zy2Qv2F2iq+lZO3tB5l8xeVhquKk4xvKXyW1rEMhNQ3Q==}
-    dependencies:
-      chalk: 5.2.0
-    dev: true
-
-  /@dddstack/droplet-core@2.1.4:
-    resolution: {integrity: sha512-IKEgjnxksejhWIfz/bXofOzkjsOYDip9jF9uXpWzofR6w4DOL8wCZ0WhbK5p0IRIxEN3xhHTbyHaplXaMrlv2A==}
-    dependencies:
-      '@astrojs/cli-kit': 0.2.3
-      '@ddddurk/colors': 1.0.2
-      '@ddddurk/kit': 1.1.2
-      chalk: 5.2.0
-      commander: 10.0.1
-      handlebars: 4.7.7
-    dev: true
-
-  /@dddstack/droplet@2.1.5:
-    resolution: {integrity: sha512-BdeSZNYHbU7SnTYpwz8gnsqUYHQsEQndNfuBT6uDS5rHRNUy+6Bs6buczr9Tk+mGttCJZFv7Zv0Blle4sKkA8g==}
-    hasBin: true
-    dependencies:
-      '@dddstack/droplet-core': 2.1.4
+  /@durksteedjr/colors@2.0.0:
+    resolution: {integrity: sha512-o+idJZki1nKhBWxwH22nUcx4K6KcEMMFNHLP5PNNHj2COBuxNgkzVhAfPGxSAMZ0fYmS067Z2/uVZO7zYhEl/w==}
     dev: true
 
   /@esbuild/android-arm64@0.18.5:
@@ -1160,6 +1127,10 @@ packages:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
     dev: true
 
+  /@types/tinycolor2@1.4.3:
+    resolution: {integrity: sha512-Kf1w9NE5HEgGxCRyIcRXR/ZYtDv0V8FVPtYHwLxl0O+maGX0erE77pQlD0gpP+/KByMZ87mOA79SjifhSB3PjQ==}
+    dev: true
+
   /@typescript-eslint/eslint-plugin@5.59.0(@typescript-eslint/parser@5.59.0)(eslint@8.39.0)(typescript@5.0.4):
     resolution: {integrity: sha512-p0QgrEyrxAWBecR56gyn3wkG15TJdI//eetInP3zYRewDh0XS+DhB3VUAd3QqvziFsfaQIoIuZMxZRB7vXYaYw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -1353,13 +1324,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.21.3
-    dev: true
-
-  /ansi-escapes@5.0.0:
-    resolution: {integrity: sha512-5GFMVX8HqE/TB+FuBJGuO5XG0WrsA6ptUqoODaT/n9mmUaZFkqnBueB4leqGBCmrUHnCnC4PCZTCd0E7QQ83bA==}
-    engines: {node: '>=12'}
-    dependencies:
-      type-fest: 1.4.0
     dev: true
 
   /ansi-regex@5.0.1:
@@ -1557,6 +1521,11 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
+  /chalk@5.3.0:
+    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: true
+
   /chardet@0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
     dev: true
@@ -1591,13 +1560,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       restore-cursor: 3.1.0
-    dev: true
-
-  /cli-cursor@4.0.0:
-    resolution: {integrity: sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dependencies:
-      restore-cursor: 4.0.0
     dev: true
 
   /cli-truncate@2.1.0:
@@ -1674,6 +1636,11 @@ packages:
   /commander@10.0.1:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
     engines: {node: '>=14'}
+    dev: true
+
+  /commander@11.0.0:
+    resolution: {integrity: sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==}
+    engines: {node: '>=16'}
     dev: true
 
   /commander@4.1.1:
@@ -2574,21 +2541,16 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
     dev: true
 
-  /grapheme-splitter@1.0.4:
-    resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
+  /gradient-string@2.0.2:
+    resolution: {integrity: sha512-rEDCuqUQ4tbD78TpzsMtt5OIf0cBCSDWSJtUDaF6JsAh+k0v9r++NzxNEG87oDZx9ZwGhD8DaezR2L/yrw0Jdw==}
+    engines: {node: '>=10'}
+    dependencies:
+      chalk: 4.1.2
+      tinygradient: 1.1.5
     dev: true
 
-  /handlebars@4.7.7:
-    resolution: {integrity: sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==}
-    engines: {node: '>=0.4.7'}
-    hasBin: true
-    dependencies:
-      minimist: 1.2.8
-      neo-async: 2.6.2
-      source-map: 0.6.1
-      wordwrap: 1.0.0
-    optionalDependencies:
-      uglify-js: 3.17.4
+  /grapheme-splitter@1.0.4:
+    resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
 
   /hard-rejection@2.1.0:
@@ -3183,17 +3145,6 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
-  /log-update@5.0.1:
-    resolution: {integrity: sha512-5UtUDQ/6edw4ofyljDNcOVJQ4c7OjDro4h3y8e1GQL5iYElYclVHJ3zeWchylvMaKnDbDilC8irOVyexnA/Slw==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dependencies:
-      ansi-escapes: 5.0.0
-      cli-cursor: 4.0.0
-      slice-ansi: 5.0.0
-      strip-ansi: 7.0.1
-      wrap-ansi: 8.1.0
-    dev: true
-
   /lru-cache@4.1.5:
     resolution: {integrity: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==}
     dependencies:
@@ -3336,10 +3287,6 @@ packages:
 
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
-    dev: true
-
-  /neo-async@2.6.2:
-    resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
   /normalize-package-data@2.5.0:
@@ -3788,14 +3735,6 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
-  /restore-cursor@4.0.0:
-    resolution: {integrity: sha512-I9fPXU9geO9bHOt9pHHOhOkYerIMsmVaWB0rA2AI9ERh/+x/i7MV5HKBNrg+ljO5eoPVgCcnFuRjJ9uH6I/3eg==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dependencies:
-      onetime: 5.1.2
-      signal-exit: 3.0.7
-    dev: true
-
   /reusify@1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
@@ -3909,10 +3848,6 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /sisteransi@1.0.5:
-    resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
-    dev: true
-
   /slash@3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
@@ -3976,11 +3911,6 @@ packages:
       globby: 13.1.4
       is-plain-obj: 4.1.0
       sort-object-keys: 1.1.3
-    dev: true
-
-  /source-map@0.6.1:
-    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /source-map@0.8.0-beta.0:
@@ -4225,6 +4155,17 @@ packages:
       globrex: 0.1.2
     dev: true
 
+  /tinycolor2@1.6.0:
+    resolution: {integrity: sha512-XPaBkWQJdsf3pLKJV9p4qN/S+fm2Oj8AIPo1BTUhg5oxkvm9+SVEGFdhyOz7tTdUTfvxMiAs4sp6/eZO2Ew+pw==}
+    dev: true
+
+  /tinygradient@1.1.5:
+    resolution: {integrity: sha512-8nIfc2vgQ4TeLnk2lFj4tRLvvJwEfQuabdsmvDdQPT0xlk9TaNtpGd6nNRxXoK6vQhN6RSzj+Cnp5tTQmpxmbw==}
+    dependencies:
+      '@types/tinycolor2': 1.4.3
+      tinycolor2: 1.6.0
+    dev: true
+
   /tmp@0.0.33:
     resolution: {integrity: sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==}
     engines: {node: '>=0.6.0'}
@@ -4456,11 +4397,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /type-fest@1.4.0:
-    resolution: {integrity: sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==}
-    engines: {node: '>=10'}
-    dev: true
-
   /typed-array-length@1.0.4:
     resolution: {integrity: sha512-KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==}
     dependencies:
@@ -4474,14 +4410,6 @@ packages:
     engines: {node: '>=12.20'}
     hasBin: true
     dev: true
-
-  /uglify-js@3.17.4:
-    resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}
-    engines: {node: '>=0.8.0'}
-    hasBin: true
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
@@ -4621,10 +4549,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /wordwrap@1.0.0:
-    resolution: {integrity: sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==}
-    dev: true
-
   /wrap-ansi@6.2.0:
     resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
     engines: {node: '>=8'}
@@ -4641,15 +4565,6 @@ packages:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
-    dev: true
-
-  /wrap-ansi@8.1.0:
-    resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
-    engines: {node: '>=12'}
-    dependencies:
-      ansi-styles: 6.2.1
-      string-width: 5.1.2
-      strip-ansi: 7.0.1
     dev: true
 
   /wrappy@1.0.2:

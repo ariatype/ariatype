@@ -1,0 +1,1 @@
+/Users/durk/Documents/code/dddstack/code/ariatype/LICENSE.md

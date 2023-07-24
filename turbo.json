@@ -5,11 +5,10 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
-    "build:watch": {
-      "cache": false,
-      "dependsOn": ["^build:watch"]
+    "dev": {
+      "cache": false
     },
-    "test:typecheck": {
+    "typecheck": {
       "cache": false,
       "dependsOn": ["^build"]
     }
