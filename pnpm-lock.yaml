@@ -36,8 +36,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       eslint-plugin-prettier:
-        specifier: ^4.2.1
-        version: 4.2.1(eslint@8.39.0)(prettier@2.8.8)
+        specifier: ^5.0.0
+        version: 5.0.0(eslint@8.39.0)(prettier@2.8.8)
       eslint-plugin-simple-import-sort:
         specifier: ^10.0.0
         version: 10.0.0(eslint@8.39.0)
@@ -69,49 +69,49 @@ importers:
   packages/ariatype:
     dependencies:
       '@dddstack/ariatype-aria-attributes':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-widget
       '@dddstack/ariatype-aria-roles':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-window
       '@dddstack/ariatype-partially-required-props':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-partially-required-props
     devDependencies:
       tsup:
@@ -124,19 +124,19 @@ importers:
   packages/ariatype-aria-attributes:
     dependencies:
       '@dddstack/ariatype-aria-attributes-drag-and-drop':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-drag-and-drop
       '@dddstack/ariatype-aria-attributes-global':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-global
       '@dddstack/ariatype-aria-attributes-live-region':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-live-region
       '@dddstack/ariatype-aria-attributes-relationship':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-relationship
       '@dddstack/ariatype-aria-attributes-widget':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-attributes-widget
     devDependencies:
       tsup:
@@ -194,25 +194,25 @@ importers:
   packages/ariatype-aria-roles:
     dependencies:
       '@dddstack/ariatype-aria-roles-composite':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-composite
       '@dddstack/ariatype-aria-roles-document-structure':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-document-structure
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
       '@dddstack/ariatype-aria-roles-landmark':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-landmark
       '@dddstack/ariatype-aria-roles-live-region':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-live-region
       '@dddstack/ariatype-aria-roles-widget':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-widget
       '@dddstack/ariatype-aria-roles-window':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-window
     devDependencies:
       tsup:
@@ -225,7 +225,7 @@ importers:
   packages/ariatype-aria-roles-composite:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -238,7 +238,7 @@ importers:
   packages/ariatype-aria-roles-document-structure:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -260,7 +260,7 @@ importers:
   packages/ariatype-aria-roles-landmark:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -273,7 +273,7 @@ importers:
   packages/ariatype-aria-roles-live-region:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -286,7 +286,7 @@ importers:
   packages/ariatype-aria-roles-widget:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -299,7 +299,7 @@ importers:
   packages/ariatype-aria-roles-window:
     dependencies:
       '@dddstack/ariatype-aria-roles-generic':
-        specifier: 1.0.3
+        specifier: 2.0.0
         version: link:../ariatype-aria-roles-generic
     devDependencies:
       tsup:
@@ -2043,20 +2043,24 @@ packages:
       vscode-json-languageservice: 4.2.1
     dev: true
 
-  /eslint-plugin-prettier@4.2.1(eslint@8.39.0)(prettier@2.8.8):
-    resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
-    engines: {node: '>=12.0.0'}
+  /eslint-plugin-prettier@5.0.0(eslint@8.39.0)(prettier@2.8.8):
+    resolution: {integrity: sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      eslint: '>=7.28.0'
+      '@types/eslint': '>=8.0.0'
+      eslint: '>=8.0.0'
       eslint-config-prettier: '*'
-      prettier: '>=2.0.0'
+      prettier: '>=3.0.0'
     peerDependenciesMeta:
+      '@types/eslint':
+        optional: true
       eslint-config-prettier:
         optional: true
     dependencies:
       eslint: 8.39.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
+      synckit: 0.8.5
     dev: true
 
   /eslint-plugin-simple-import-sort@10.0.0(eslint@8.39.0):
