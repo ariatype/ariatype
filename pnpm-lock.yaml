@@ -45,8 +45,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@typescript-eslint/eslint-plugin@6.4.0)(eslint@8.47.0)
       eslint-plugin-yaml:
-        specifier: ^0.5.0
-        version: 0.5.0
+        specifier: ^1.0.0
+        version: 1.0.3
       husky:
         specifier: ^8.0.3
         version: 8.0.3
@@ -2103,8 +2103,9 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: true
 
-  /eslint-plugin-yaml@0.5.0:
-    resolution: {integrity: sha512-Z6km4HEiRptSuvzc96nXBND1Vlg57b7pzRmIJOgb9+3PAE+XpaBaiMx+Dg+3Y15tSrEMKCIZ9WoZMwkwUbPI8A==}
+  /eslint-plugin-yaml@1.0.3:
+    resolution: {integrity: sha512-PNA2P38xFIrIdb82W0k66UPtpn0UHbPs8LxwtmZqG03PUzV1RE6OYFUi0pxL4LsFndHjgOyNlLqK2N5lGdX8ew==}
+    engines: {node: '>=12'}
     dependencies:
       js-yaml: 4.1.0
       jshint: 2.13.6
