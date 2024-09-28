@@ -32,7 +32,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tsup": "^7.0.0",
+    "tsup": "^8.0.0",
     "typescript": "^5.0.4"
   },
   "publishConfig": {
