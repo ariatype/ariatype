@@ -35,7 +35,7 @@
     "typecheck": "pnpm turbo:typecheck"
   },
   "devDependencies": {
-    "@changesets/changelog-git": "^0.1.14",
+    "@changesets/changelog-git": "^0.2.0",
     "@changesets/cli": "^2.26.2",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
