@@ -1,4 +1,0 @@
-{
-  "$schema": "http://json.schemastore.org/lintstagedrc.schema",
-  "**/*.{js,json,jsx,ts,tsx,yaml}": ["pnpm lint"]
-}

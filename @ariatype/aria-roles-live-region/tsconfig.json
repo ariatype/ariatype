@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "exclude": ["dist/"],
+  "include": ["./**/*.ts"]
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "lib": ["ES2022"],
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "exclude": ["dist/"],
+  "include": ["./**/*.ts"]
+}

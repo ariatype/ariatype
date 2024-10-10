@@ -1,0 +1,55 @@
+{
+  "name": "@ariatype/ariatype",
+  "version": "0.0.0",
+  "description": "TypeScript type definitions for WAI-ARIA accessibility.",
+  "homepage": "https://durksteedjr.com/docs/ariatype",
+  "bugs": {
+    "url": "https://github.com/ariatype/ariatype/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariatype/ariatype",
+    "directory": "@ariatype/ariatype"
+  },
+  "license": "MIT",
+  "author": "Durk Steed Jr. <contact@durksteedjr.com>",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "pnpm run tsup",
+    "dev": "pnpm run tsup:watch",
+    "tsc": "tsc",
+    "tsc:no-emit": "pnpm run tsc --noEmit",
+    "tsup": "tsup",
+    "tsup:watch": "pnpm run tsup --watch",
+    "typecheck": "pnpm run tsc:no-emit"
+  },
+  "dependencies": {
+    "@ariatype/aria-attributes": "workspace:*",
+    "@ariatype/aria-attributes-drag-and-drop": "workspace:*",
+    "@ariatype/aria-attributes-global": "workspace:*",
+    "@ariatype/aria-attributes-live-region": "workspace:*",
+    "@ariatype/aria-attributes-relationship": "workspace:*",
+    "@ariatype/aria-attributes-widget": "workspace:*",
+    "@ariatype/aria-roles": "workspace:*",
+    "@ariatype/aria-roles-composite": "workspace:*",
+    "@ariatype/aria-roles-document-structure": "workspace:*",
+    "@ariatype/aria-roles-generic": "workspace:*",
+    "@ariatype/aria-roles-landmark": "workspace:*",
+    "@ariatype/aria-roles-live-region": "workspace:*",
+    "@ariatype/aria-roles-widget": "workspace:*",
+    "@ariatype/aria-roles-window": "workspace:*",
+    "@ariatype/partially-required-props": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

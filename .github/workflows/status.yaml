@@ -2,8 +2,6 @@ name: status
 
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:
   build:
@@ -12,22 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@master
-        with:
-          node-version: 16.x
+      - uses: ./.github/actions/setup
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
-      - run: pnpm i --frozen-lockfile=false
-        shell: bash
-
-      - run: pnpm build
+      - run: pnpm run build
         shell: bash
 
   lint:
@@ -36,22 +23,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@master
-        with:
-          node-version: 16.x
+      - uses: ./.github/actions/setup
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
-      - run: pnpm i --frozen-lockfile=false
-        shell: bash
-
-      - run: pnpm lint
+      - run: pnpm run lint:check:all
         shell: bash
 
   typecheck:
@@ -60,20 +36,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@master
-        with:
-          node-version: 16.x
+      - uses: ./.github/actions/setup
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 7
-
-      - run: pnpm i --frozen-lockfile=false
-        shell: bash
-
-      - run: pnpm typecheck
+      - run: pnpm run typecheck
         shell: bash

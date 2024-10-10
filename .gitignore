@@ -1,5 +1,7 @@
-.turbo
-dist
-node_modules
+.turbo/
+dist/
+node_modules/
 
 .DS_Store
+.env
+tsconfig.tsbuildinfo
