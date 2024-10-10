@@ -1,6 +1,6 @@
 {
   "name": "@ariatype/ariatype",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "TypeScript type definitions for WAI-ARIA accessibility.",
   "homepage": "https://durksteedjr.com/docs/ariatype",
   "bugs": {
