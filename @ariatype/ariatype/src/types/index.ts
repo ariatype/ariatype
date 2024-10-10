@@ -13,5 +13,5 @@ export * from "@ariatype/aria-roles-live-region";
 export * from "@ariatype/aria-roles-widget";
 export * from "@ariatype/aria-roles-window";
 
-export * from "./ariaType.types";
-export * from "./partiallyRequiredAriaType";
+export * from "./ariaTypes.types";
+export * from "./partiallyRequiredAriaTypes";
