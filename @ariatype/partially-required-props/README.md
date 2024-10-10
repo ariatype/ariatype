@@ -1,0 +1,1 @@
+@ariatype/partially-required-props
