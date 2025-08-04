@@ -1,5 +1,11 @@
 # @ariatype/aria-attributes-relationship
 
+## 1.0.2
+
+### Patch Changes
+
+- bb145e4: 08/04/2025
+
 ## 1.0.1
 
 ### Patch Changes
