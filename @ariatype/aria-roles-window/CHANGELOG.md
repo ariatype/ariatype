@@ -1,5 +1,13 @@
 # @ariatype/aria-roles-window
 
+## 1.0.2
+
+### Patch Changes
+
+- bb145e4: 08/04/2025
+- Updated dependencies [bb145e4]
+  - @ariatype/aria-roles-generic@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes

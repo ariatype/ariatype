@@ -1,5 +1,17 @@
 # @ariatype/aria-attributes
 
+## 1.0.2
+
+### Patch Changes
+
+- bb145e4: 08/04/2025
+- Updated dependencies [bb145e4]
+  - @ariatype/aria-attributes-drag-and-drop@1.0.2
+  - @ariatype/aria-attributes-global@1.0.2
+  - @ariatype/aria-attributes-live-region@1.0.2
+  - @ariatype/aria-attributes-relationship@1.0.2
+  - @ariatype/aria-attributes-widget@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
